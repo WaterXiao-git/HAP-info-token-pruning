@@ -1,0 +1,28 @@
+{
+ "config": {
+  "d": 32,
+  "depth": 10,
+  "heads": 4,
+  "dataset": "cifar10",
+  "seed": 0,
+  "epochs": 2,
+  "bs": 512,
+  "lr": 0.0003
+ },
+ "n_params": 131818,
+ "best_acc": 0.3168,
+ "final_acc": 0.3168,
+ "history": [
+  {
+   "epoch": 0,
+   "loss": 2.1060710787200927,
+   "acc": 0.2764
+  },
+  {
+   "epoch": 1,
+   "loss": 1.8965957827758788,
+   "acc": 0.3168
+  }
+ ],
+ "train_minutes": 1.218240487575531
+}
